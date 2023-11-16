@@ -1,0 +1,19 @@
+/*html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}*/
+
+@font-face {
+  font-family: 'Postoni';
+  src: url('PostoniWide-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Franklin Light';
+  src: url('ITC_Franklin-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Franklin Bold';
+  src: url('ITC_Franklin-Bold.woff2') format('woff2');
+}
