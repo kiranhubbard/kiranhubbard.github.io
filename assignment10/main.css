@@ -1,0 +1,101 @@
+
+
+.mycontainer { 
+  padding: 75px;
+  padding-top: 0px;
+padding-bottom: 0px; }
+
+nav {
+  border-top: 8px solid darkred;
+  border-bottom: 1px solid red;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 330px;
+}
+
+.sitemotto {
+  color: #de2f23;
+  font-family: Basier, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+
+header {
+    font-family: Basier, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+p {text-align: justify;}
+
+.byline {
+  font-weight: bold;
+}
+
+.tdpad {
+  padding: 15px;
+}
+
+article > p {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.storyimage {
+  width: 50%; 
+  max-width: 200px;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
+}
+
+.blockquote {font-family: 'Times New Roman', Times, serif; 
+  font-size:55px;
+  font-style:italic;
+  padding:20px;
+  text-align: center;
+}
+
+.card {float: left;
+width: 50%;
+margin: 20px;
+margin-left: 0px;
+}
+
+.cardb {float: right; 
+width: 50%; 
+margin: 20px;
+margin-right: 0px;
+}
