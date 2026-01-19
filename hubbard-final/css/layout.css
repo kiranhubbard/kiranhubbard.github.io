@@ -1,0 +1,224 @@
+
+/*I used ChatGPT to help with a couple of the formatting details, like the white-space nowrap for the buttons, image crops and using a flex container*/
+
+body{
+	font-family:"Inter", sans-serif;
+}
+
+.row{
+	display:flex;
+	justify-content: center;
+}
+
+.bgcolor{
+	background-color:#3e808e;
+}
+
+.bgcolor2{
+	background-color:#000000;
+}
+
+.info{
+	margin-top:75px;
+	margin-bottom:75px;
+}
+
+.logo-long{
+	max-width:500px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.logo-stacked{
+	max-width:300px;
+	margin-top:10px;
+}
+
+.navbar-toggler{
+	border:none;
+}
+
+/*ChatGPT helped with this design*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.hamburger{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.navbar-mb{
+	border:none !important;
+}
+
+.envelope{
+	max-width:50px;
+}
+
+li{
+	margin-right:30px;
+}
+
+.nav-link{
+	color:#ffffff;
+	font-weight:bold;
+	font-size:1.1em;
+
+}
+.nav-link:hover{
+	color:#ffffff;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size:1.1em;
+}
+.nav-link:visited{
+	color:#ffffff;
+}
+
+.navbar{
+	border-top-style:solid;
+	border-top-color:#ffffff;
+}
+
+.btn{
+	border-radius:30px;
+	background-color:#d83888;
+	color:#ffffff;
+	border-color:#000000;
+	font-weight:bold;
+	font-size:1.1em;
+	padding:10px;
+	padding-right:30px;
+	padding-left:30px;
+	white-space:nowrap;
+}
+
+@media(max-width:768px){
+	.media-btn{
+		margin-bottom:25px;
+	}
+	.media-right{
+		display:flex;
+		justify-content:right;
+		padding-right:25px;
+	}
+	.media-left{
+		display:flex;
+		justify-content:left;
+		padding-left:25px;
+	}
+	.media-row{
+		margin-top:25px;
+	}
+}
+
+.media-btn{
+	padding:5px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:0.9em;
+}
+
+.btn:hover{
+	background-color:#d83888;
+	color:#000000;
+	border-color:#000000;
+}
+
+.tickets-col{
+	display:flex;
+	justify-content:right;
+	align-items:center;
+	padding-right:25px;
+}
+
+.tickets-col-mb{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:15px;
+}
+
+.jumbotron{
+	text-align:center; 
+	color:#ffffff;
+}
+
+h1{
+	font-size:2.5em;
+	font-weight:bold;
+	margin-top:30px;
+}
+
+h2{
+	font-weight:bold;
+	text-align:center;
+	font-size:2em;
+}
+
+h3{
+	font-size:1.75em;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-weight:350;
+	text-align:center;
+}
+
+h4{
+	font-size:1.25em;
+	font-weight:bold;
+}
+
+p{
+	font-size:0.75em;
+	font-weight:bold;
+	margin-bottom:0em;
+	color:#ffffff;
+}
+
+.form-text{
+	font-size:1.1em;
+	margin-bottom:10px;
+	color:#ffffff;
+}
+
+.learn-more{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.film{
+	max-height:500px;
+	object-fit:cover;
+	height:100%;
+	width:100%;
+	object-position:center 45%;
+}
+
+.actions{
+	text-align:center;
+	margin-bottom:75px;
+}
+
+.media{
+	max-height:75px;
+	margin-bottom:25px;
+}
+
+.footer{
+	display:flex;
+	align-items:center;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.footer-mb{
+	text-align:center;
+}
+
